@@ -1,0 +1,139 @@
+/* стартовые кнопки */
+.custom-img {
+    max-width: 75%;
+    max-height: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.dog {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(65, 42, 165);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.cat {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 4px;
+    background: rgb(57, 243, 0);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dogBlock,
+.catBlock,
+.buttons,
+.status {
+    display: none;
+}
+
+/* кнопки лайк/диз/инф */
+
+.like-dog,
+.like-cat {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(57, 243, 0);
+
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dislike-dog,
+.dislike-cat {
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: rgb(243, 8, 0);
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+.EndButtonOfDog,
+.EndButtonOfCat {
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: rgb(73, 0, 243);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.back {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background: rgb(93, 55, 182);
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+/* гриды */
+.grid {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
+}
+
+.block {
+    display: block;
+}
+
+.like {
+    background-color: rgb(76, 184, 66);
+    max-width: 100%;
+    border: 1.5px solid black;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.dislike {
+    background-color: rgb(136, 25, 6);
+
+    max-width: 100%;
+    border: 1.5px solid black;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.like {
+    img{
+    width: 100%;
+    padding: 5px;
+
+    }
+}
+.dislike {
+    img {
+        width: 100%;
+        padding: 5px;
+    
+}
+}
+.like {
+    p {
+        display: flex;
+        justify-content: center; 
+    }
+}
+.dislike{
+    p {
+    display: flex;
+    justify-content: center;
+    }
+}
